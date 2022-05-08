@@ -1,0 +1,5 @@
+G90
+G01 F1200 Z275
+G01 F7200 X20 Y230
+M104 S0 ;set active extruder to 0C
+M106 P2 S0.48
