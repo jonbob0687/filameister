@@ -1,0 +1,17 @@
+;Rapid to location of electrical tape
+;probe with system config defined z offset
+if !move.axes[0].homed
+	abort "X Axis Not Homed"
+if !move.axes[1].homed
+	abort "Y Axis Not Homed"
+if !move.axes[2].homed
+	abort "Z Axis Not Homed"
+
+G90
+G0 Z25 F600
+G0 X170 Y240 F2500
+G0 Z2 F300
+
+G30
+
+G0 Z25 F600

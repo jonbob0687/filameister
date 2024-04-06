@@ -1,0 +1,2 @@
+G90
+G53 G1 X{move.axes[0].min + 120} Y{move.axes[1].min} F6000 ; go to X=0 Y=0

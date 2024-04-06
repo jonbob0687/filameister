@@ -1,0 +1,2 @@
+2018-06-28 11:10:35 Event logging started
+2018-06-28 11:12:28 Warning: VIN under-voltage event (10.0V)
